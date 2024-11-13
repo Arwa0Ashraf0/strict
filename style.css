@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav{
+    background-color: rgb(209, 206, 206);
+}
+header{
+    background-image: url(Template/images/headerbg.png);
+    height: 100vh;
+}
+header nav h1{
+    text-transform: uppercase;
+    padding: 20px 100px;
+}
+header .text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header .text h1{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+header .text .hr{
+    border: 2px solid rgb(46, 46, 170);
+    width: 500px;
+    margin: 30px;
+}
+header .text button{
+    background: none;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid rgb(46, 46, 170);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.sec1{
+    background-color:rgb(221, 218, 218) ;
+    text-align: center;
+    display: inline-block;
+    padding: 50px 100px;
+}
+.sec1 h2{
+    color: rgb(71, 69, 69);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.sec1 p{
+    color: rgb(168, 164, 164);
+    margin-bottom: 50px;
+}
+.sec2{
+    background-color: white;
+}
+.sec2 .icon{
+    float: left;
+    width: 300px;
+    margin: 50px ;
+    text-align: center;
+}
+.sec2 .icon img{
+    margin-bottom: 30px;
+}
+.sec2 .icon h3{
+    margin-bottom: 20px;
+    color: rgb(83, 80, 80);
+}
+.sec2 .icon p{
+    color: rgb(190, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+.sec3{
+    background-color:rgb(221, 218, 218) ;
+    text-align: center;
+    display: inline-block;
+}
+.sec3 h3{
+    margin-top: 70px;
+    color: rgb(68, 66, 66);
+    font-size: 50px;
+}
+.sec3 p{
+    margin-top: 15px;
+    color: gray;
+    letter-spacing: 1.8px;
+    margin-bottom: 90px;
+}
+.sec3 img{
+   padding: 15px;
+}
+
+
+
+
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Template/images/contactbg.png) no-repeat center center/cover;
+    
+}
+
+.sec4 .contant {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.sec4 .contant h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sec4 .contantp {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.sec4 .contant input[type="text"],
+.sec4 .contant input[type="email"],
+.sec4 .contant textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.sec4 .contant textarea {
+    height: 100px;
+    resize: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input {
+    margin-right: 8px;
+}
+
+.sec4 .contant button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sec4 .contant button:hover {
+    background-color: #005bb5;
+}
+
+
